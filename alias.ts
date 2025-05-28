@@ -1,3 +1,4 @@
+//giving types new name
 type ID = string | number
 type point = {x:number, y:number}
 type status = "Active" | "inActive" | "pending"
