@@ -9,12 +9,17 @@ function printId(id :string | number) : void{
     console.log(`the id is ${id}`);
 
     if(typeof id === "string"){
-        console.log(`id is string, to uppercase ${id.toUpperCase()}`);
+        console.log(`id is string, to uppercase: ${id.toUpperCase()}`);
     }else{
-        console.log(`id is number, multiply by 2 ${id * 2}`);
+        console.log(`id is number, multiply by 2: ${id * 2}`);
     };
     
 };
 
 printId(11);
 printId("marble.200");
+
+
+let firstname = new String('Danny');
+console.log(firstname); // String {'Danny'}
+console.log(firstname.valueOf()); //Danny
