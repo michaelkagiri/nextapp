@@ -47,3 +47,21 @@ userName = "david"
 itemCount = 500;
 isAdmin = true;
 
+//functions with types
+
+function add(a:number , b:number) {
+    return a+b
+};
+let sum = add(5,6); // output will be 11
+
+// optional parameter "?"
+function greet (names:string, greeting?:string) {
+    if(greeting) {
+        return `${greeting} ${names}`
+    } else {`hello ${names}`};
+};
+
+console.log(greet("Alice"));
+console.log(greet("bob", "heyyy"));
+
+
