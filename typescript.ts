@@ -37,6 +37,13 @@ function sayHello() : void {
 let n = null;
 let u = undefined;
 
+
+// type inference
 let userName = "";
+let itemCount = 50;
+let isAdmin = false;
+
 userName = "david"
-// userName = 123
+itemCount = 500;
+isAdmin = true;
+
