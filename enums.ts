@@ -15,3 +15,11 @@ enum Colors {
 }
 let favourite : Colors = Colors.red;
 console.log(favourite);
+
+enum Gun {
+    rifle = "shotgun",
+    pistol = "glock",
+    automatic = "AK-47"
+}
+let good : Gun = Gun.pistol
+console.log(good);

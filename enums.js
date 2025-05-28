@@ -16,3 +16,11 @@ var Colors;
 })(Colors || (Colors = {}));
 var favourite = Colors.red;
 console.log(favourite);
+var Gun;
+(function (Gun) {
+    Gun["rifle"] = "shotgun";
+    Gun["pistol"] = "glock";
+    Gun["automatic"] = "AK-47";
+})(Gun || (Gun = {}));
+var good = Gun.pistol;
+console.log(good);
