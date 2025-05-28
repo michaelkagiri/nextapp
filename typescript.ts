@@ -37,3 +37,6 @@ function sayHello() : void {
 let n = null;
 let u = undefined;
 
+let userName = "";
+userName = "david"
+// userName = 123
