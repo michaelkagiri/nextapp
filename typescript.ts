@@ -55,13 +55,21 @@ function add(a:number , b:number) {
 let sum = add(5,6); // output will be 11
 
 // optional parameter "?"
-function greet (names:string, greeting?:string) {
+function greet (names:string, greeting?:string) : string {
     if(greeting) {
         return `${greeting} ${names}`
-    } else {`hello ${names}`};
+    } else {return `hello ${names}`};
 };
 
-console.log(greet("Alice"));
-console.log(greet("bob", "heyyy"));
+console.log(greet("Alice")); //it will implement the else statement
+console.log(greet("bob", "heyyy")); // will implement the return statement where the greeting is specified
 
+
+//default parameters
+function farewell (name: string, message : string = "hello there") : string {
+    return `${message}, ${name}`;
+};
+
+console.log(farewell("jane")); // output hello there jane
+console.log(farewell("alex", "goodbye"));
 
